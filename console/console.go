@@ -67,6 +67,7 @@ type Config struct {
 // Console is a JavaScript interpreted runtime environment. It is a fully fledged
 // JavaScript console attached to a running node via an external or in-process RPC
 // client.
+
 type Console struct {
 	client   *rpc.Client         // RPC client to execute Ethereum requests through
 	jsre     *jsre.JSRE          // JavaScript runtime environment running the interpreter
